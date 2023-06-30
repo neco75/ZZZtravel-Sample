@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/posting_style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 旅行記事投稿フォーム -->
+    <!-- サムネ、旅行先、予算、交通手段、記事本文、送信ボタン -->
+
+    <form method="post">
+        <div>
+            <label for="image">サムネイル画像</label>
+            <input type="file" name="image" id="image">
+        </div>
+        <div>
+            <label for="title">旅行先</label>
+            <input type="text" name="title" id="title">
+        </div>
+        <div>
+            <label for="budget">予算</label>
+            <input type="text" name="budget" id="budget">
+        </div>
+        <div>
+            <label for="transportation">交通手段</label>
+            <input type="text" name="transportation" id="transportation">
+        </div>
+        <div>
+            <label for="text">記事本文</label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="投稿">
+        </div>
+    </form>
+
+
+</body>
+
+</html>

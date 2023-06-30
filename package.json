@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@line/liff": "^2.22.2",
+    "typescript": "^5.1.5"
+  }
+}

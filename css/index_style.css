@@ -1,0 +1,87 @@
+*{
+    background-color: rgb(214, 255, 214);
+}
+
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#count-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#new-article, #ranking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* 細い線で囲む 角を少し丸く　色も薄く*/
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+#ranking {
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    margin-bottom: 50px;
+}
+section>div {
+    margin: 20px 0;
+    padding: 0 20px;
+
+    height: 300px;
+    overflow-y: scroll;
+
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#user_status {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 10px;
+
+
+}
